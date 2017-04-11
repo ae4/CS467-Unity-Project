@@ -46,6 +46,7 @@
 -define:UNITY_5_6
 -define:UNITY_5
 -define:UNITY_64
+-define:UNITY_ANALYTICS
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
 -define:ENABLE_CLOTH
@@ -110,6 +111,7 @@
 -define:UNITY_EDITOR_OSX
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
+-define:CROSS_PLATFORM_INPUT
 'Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
 'Assets/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs'
 'Assets/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs'
@@ -130,6 +132,12 @@
 'Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs'
 'Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs'
 'Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs'
+'Assets/Standard Assets/Effects/Bloom/Editor/BloomEditor.cs'
+'Assets/Standard Assets/Effects/Bloom/Editor/BloomGraphDrawer.cs'
+'Assets/Standard Assets/Effects/Common/Editor/EditorGUIHelper.cs'
+'Assets/Standard Assets/Effects/Common/Editor/FieldFinder.cs'
+'Assets/Standard Assets/Effects/Common/Editor/MinDrawer.cs'
+'Assets/Standard Assets/Effects/LensAberrations/Editor/LensAberrationsEditor.cs'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
