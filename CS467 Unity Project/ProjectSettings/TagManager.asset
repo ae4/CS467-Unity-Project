@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Fire
+  - pickableObject
+  - StimPack
+  - hit
+  - flashlight
+  - accessCard
+  - energyBar
   layers:
   - Default
   - TransparentFX
@@ -14,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
